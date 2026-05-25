@@ -20,7 +20,7 @@ jobs:
         run: pip install -r requirements.txt
 
       - name: Generate daily brief
-        run: python generate_daily_brief.py
+        run: python generate_daily_brief_Version2.py
 
       - name: Commit and push if changed
         run: |
